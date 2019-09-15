@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="32dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/openWebsite"
+        android:layout_width="match_parent"
+        android:onClick="onClickOpenWebpageBtn"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:text="Open Website" />
+
+    <Button
+        android:id="@+id/openLocation"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:onClick="onClickOpenAddressBtn"
+        android:text="Open Location in Map" />
+
+    <Button
+        android:id="@+id/shareText"
+        android:layout_width="match_parent"
+        android:onClick="onClickShareTextBtn"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:text="Share Text Content" />
+
+    <Button
+        android:id="@+id/createOwn"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:onClick="onCreateYourOwnBtn"
+        android:text="Create Your Own" />
+</LinearLayout>
